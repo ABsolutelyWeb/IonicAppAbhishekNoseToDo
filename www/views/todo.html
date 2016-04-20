@@ -4,6 +4,7 @@
 	        <ion-item class="item-remove-animate item-icon-right" href="#/editTodo/{{todo.id}}" ng-repeat="todo in list track by todo.id">
 	    	    <h2>{{todo.title}}</h2>
 		        <p>{{todo.content}}</p>
+		        
 		        <i class="icon ion-arrow-right-b"></i>
 		        <ion-reorder-button class="ion-drag" on-reorder="moveTodo(todo, $fromIndex, $toIndex)"></ion-reorder-button>
 		        <ion-option-button class="button-option-custom" ng-click="deleteTodo(todo.id)"><i class="fa fa-trash fa-custom" aria-hidden="true"></i></ion-option-button>
