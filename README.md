@@ -7,6 +7,7 @@ I love building things that I can use in my everyday life. This is what gives me
  
 **2. Framework:** 
   + Ionic
+  + AngularJS
 
 **3. Server Technology:** 
   + Node.js
