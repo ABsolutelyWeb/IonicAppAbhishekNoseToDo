@@ -1,0 +1,18 @@
+<ion-view view-title="Edit To-Do">
+	<ion-content>
+		<div class="list card">
+
+			<div class="item item-input">
+				<input type="text" ng-model="todo.title" placeholder="To-Do Title">
+			</div>
+
+			<div class="item item-input">
+				<textarea rows="6" ng-model="todo.content" placeholder="Enter Content"></textarea>
+			</div>
+
+		</div>
+		<div class="padding">
+			<button class="button button-block" id="save-button-color" ng-click="saveChanges()">Save Changes</button>
+		</div>
+	</ion-content>
+</ion-view>

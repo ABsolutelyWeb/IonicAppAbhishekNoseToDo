@@ -1,0 +1,17 @@
+<ion-view view-title="Stuff To Do" ng-controller="ToDoCtrl">
+	<ion-content overflow-scroll="false">
+	    <ion-list show-reorder="rearrange">
+	        <ion-item class="item-remove-animate item-icon-right" href="#/editTodo/{{todo.id}}" ng-repeat="todo in list track by todo.id">
+	    	    <h2>{{todo.title}}</h2>
+		        <p>{{todo.content}}</p>
+		        <i class="icon ion-arrow-right-b"></i>
+		        <ion-reorder-button class="ion-drag" on-reorder="moveTodo(todo, $fromIndex, $toIndex)"></ion-reorder-button>
+		        <ion-option-button class="button-option-custom" ng-click="deleteTodo(todo.id)"><i class="fa fa-trash fa-custom" aria-hidden="true"></i></ion-option-button>
+	        </ion-item>
+	    </ion-list>
+	</ion-content>
+	<div class="bar bar-footer footer-custom">
+		<a href="#/addTodo" class="button custom-todobtn-color icon-left ion-compose"> New To-Do</a>
+		<button class="button button-light icon-left ion-drag" ng-click="toggleMove()"> Move Items</button>
+	</div>
+</ion-view>

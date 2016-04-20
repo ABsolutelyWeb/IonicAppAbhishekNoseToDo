@@ -1,0 +1,63 @@
+.navbar-color {
+	color: white;
+
+	background: #EB3349; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #EB3349 , #F45C43); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #EB3349 , #F45C43); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	        
+}
+
+#save-button-color {
+	color: white;
+	text-decoration: none;
+
+
+background: #f46b45; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #f46b45 , #eea849); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #f46b45 , #eea849); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+                  
+}
+
+#nav-back-btn {
+	color: white;
+}
+
+.custom-todobtn-color, .custom-todobtn-color:hover {
+	color: white;
+	text-decoration: none;
+}
+
+.custom-todobtn-color {
+	color: white;
+
+	background: #e53935; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #e53935 , #e35d5b); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #e53935 , #e35d5b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
+}
+
+.button-option-custom {
+	color: white;
+
+	background: #EB3349; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #EB3349 , #F45C43); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #EB3349 , #F45C43); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
+}
+
+.fa-custom {
+	font-size: 35px;
+	text-align: center;
+}
+
+.scroll-bar-indicator {
+	display: none;
+}
+
+/*.item-complex .item-content, .item{
+    background-color: rgba(0,0,0,0.1) !important;
+}*/
+
+.pane {
+  	background: url(http://www.photos-public-domain.com/wp-content/uploads/2011/03/white-construction-paper-texture.jpg) no-repeat center center;
+}
